@@ -1,0 +1,14 @@
+* {
+  font-family: Verdana, sans-serif;
+  color: white;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: linear-gradient(red,blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

@@ -1,0 +1,45 @@
+.quote {
+
+
+  &-block {
+
+  }
+
+  &-title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  &-author {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  &-text {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+  }
+
+}
+
+.change-quote {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  transition: linear 0.1s;
+
+  &:hover {
+    background-color: #ec3e62;
+    transition: linear 0.1s;
+    cursor: pointer;
+  }
+}
+
+
+
